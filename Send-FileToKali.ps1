@@ -1,4 +1,4 @@
-function Send-FileToKali {
+function SendFileTo-Kali {
     param(
         [Parameter(Mandatory = $true)]
         [string]$FilePath,
