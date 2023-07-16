@@ -38,6 +38,6 @@ function Send-FileToKali {
 
         return $response
     } catch {
-        Write-Error "Error al enviar el archivo al servidor: $_"
+        Write-Error "Error sending file: $_"
     }
 }
